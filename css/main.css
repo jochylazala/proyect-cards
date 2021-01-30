@@ -1,0 +1,159 @@
+body,
+  html {
+    margin: 0;
+    padding: 0;
+    background: #05394c;
+    font-family: sans-serif;
+  }
+  
+  .loading-content {
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    max-width: 680px;
+  }
+  
+  .text {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .content-block {
+    transform: rotateY(90deg);
+    transition: 0.5s;
+  }
+  
+  .blocks {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 65px;
+    height: 92px;
+    background: #fff;
+    cursor: move;
+  }
+  
+  .blocks.dragging {
+    opacity: .2;
+  }
+  
+  .content-block img {
+    width: 65px;
+    height: 92px;
+  }
+  
+  #table {
+    background: #196D2C;
+    height: 450px;
+    width: 850px;
+    position: absolute;
+    top: 70px;
+    left: 205px;
+    border-radius: 70%;
+    border: 10px solid #9DBBAC;
+  }
+  
+  .button {
+    position: absolute;
+    top: 500px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #1e6972;
+    border-radius: 8px;
+    background: #30aaba;
+    background: -webkit-gradient(linear, left top, left bottom, from(#30aaba), to(#1e6972));
+    background: -moz-linear-gradient(top, #30aaba, #1e6972);
+    background: linear-gradient(to bottom, #30aaba, #1e6972);
+    -webkit-box-shadow: #2c9dac 0px 0px 40px 0px;
+    -moz-box-shadow: #2c9dac 0px 0px 40px 0px;
+    box-shadow: #2c9dac 0px 0px 40px 0px;
+    text-shadow: #134248 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  #check {
+    position: absolute;
+    top: 575px;
+  }
+  
+  #playerone {
+    position: absolute;
+    top: 40px;
+    left: 1100px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 0px solid #7DDAC9;
+    border-radius: 8px;
+    background: #085999;
+    background: -webkit-gradient(linear, left top, left bottom, from(#085999), to(#1e6972));
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+  }
+  
+  #playertwo {
+    position: absolute;
+    top: 550px;
+    left: 1100px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 0px solid #7DDAC9;
+    border-radius: 8px;
+    background: #085999;
+    background: -webkit-gradient(linear, left top, left bottom, from(#085999), to(#1e6972));
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+  }
+  
+  .score {
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+    color: white;
+  }
+  
+  .pointCard {
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    color: white;
+  }
+  
+  .two {
+    position: absolute;
+    top: 550px;
+    left: 1000px;
+    color: white;
+  }
+  
+  .one {
+    position: absolute;
+    top: 530px;
+    left: 1000px;
+    color: white;
+  }
+  
+  p {
+    position: absolute;
+    left: 10px;
+    top: 400px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 18px;
+    border: 0px solid #7DDAC9;
+    border-radius: 8px;
+    background: #30aaba;
+    background: -webkit-gradient(linear, left top, left bottom, from(#30aaba), to(#1e6972));
+    font: normal normal bold 20px arial;
+    color: #ffffff;
